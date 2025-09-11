@@ -1,0 +1,15 @@
+#container {
+  background-color: black;
+}
+
+#heading {
+  color: yellow;
+  background-color: rgb(55, 13, 13);
+  margin: 10px;
+}
+
+#para {
+  color: greenyellow;
+  background-color: green;
+  margin: 10px;
+}
