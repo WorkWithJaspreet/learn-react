@@ -8,7 +8,7 @@ import About from "./About";
 function App() {
   return (
     <>
-      {/* <h1>React Router 7</h1> */}
+      {/* <h1>Navbar using React Router</h1> */}
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
