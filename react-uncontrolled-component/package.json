@@ -1,5 +1,5 @@
 {
-  "name": "react-controlled-component",
+  "name": "react-uncontrolled-component",
   "private": true,
   "version": "0.0.0",
   "type": "module",
