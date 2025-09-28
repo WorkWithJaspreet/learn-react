@@ -17,14 +17,15 @@ import CollegeDetails from "./CollegeDetails";
 function App() {
   return (
     <>
-      {/* <h1>Dynamic Routes in React.js</h1> */}
+      {/* <h1>NavLink and Active Class in React.js Router</h1> */}
       {/* <Navbar /> */}
       <Routes>
         <Route element={<Navbar />}>
           <Route path="/" element={<Home />} />
           <Route path="user">
             <Route path="/user" element={<Users />} />
-            <Route path="/user/:id" element={<UserDetails />} />
+            {/* <Route path="/user/:id" element={<UserDetails />} /> */}
+            <Route path="/user/:id/:name?" element={<UserDetails />} />
             <Route path="/user/signup" element={<Signup />} />
             <Route path="/user/login" element={<Login />} />
             <Route path="/user/forgot-password" element={<ForgotPassword />} />
